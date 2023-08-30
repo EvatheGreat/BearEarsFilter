@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-image:url("https://www.supercutekawaii.com/wp-content/uploads/cute-bear-characters-1-rilakkuma-600x600.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+canvas{
+    animation-name: shinything;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes shinything{
+    from{
+        box-shadow: 5px 5px 100px rgb(247, 171, 191);
+    }
+    to{
+        box-shadow: 5px 5px 15px rgb(246, 227, 175);
+    }
+}
